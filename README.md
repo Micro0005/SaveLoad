@@ -11,4 +11,6 @@ example.SetValue(Directory, Key, Value);
 
 example.GetValue(Directory, Key);
 
-example.KeyExists(Directory, Key);
+if (example.KeyExists(Directory, Key))
+{
+}
